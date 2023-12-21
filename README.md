@@ -3,6 +3,9 @@ This is starting with my 8x8 WS2812B project as shown on my channel [https://you
 
 I started this as I think all the current options are pretty crap designs, or overpriced.
 
+PCBWay Project: https://www.pcbway.com/project/shareproject/8x8_WS2812B_RGB_LED_Board_w_Mounts_MCU_SOC_Positions_46045ab1.html
+Hackster Project: https://www.hackster.io/platimatinkers/8x8-ws2182b-led-array-w-mcu-soc-support-mounts-b02998
+
 ## Goals
 1. Easy to physically mount
 2. Easy to chain
