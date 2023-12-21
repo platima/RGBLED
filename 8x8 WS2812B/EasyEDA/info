@@ -1,0 +1,468 @@
+{
+  "uuid": "da701c30695f70d0e0ed3af09bd1bd44",
+  "path": "Offline/8x8 WS2812B Tight w MCUs",
+  "name": "8x8 WS2812B Tight w MCUs",
+  "content": "",
+  "created_at": "2023-10-01 09:21:46",
+  "updated_at": "2023-10-08 06:15:51",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f0627fa1bba397ced76e211a54bea9a4",
+      "title": "8x8 WS2812B Tight w MCUs",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6b4734eba1714e9a9bc44ea1445ea515": 64,
+        "04b7d8073e854006b41709a96b7a21a9": 2,
+        "9a1dab2264ee9c0dd27f0d885a0978e6": 2,
+        "736876f24b5b418d94baa3b17df427eb": 1,
+        "7347be22b5856eba3ffccb74c7404572": 1,
+        "6a0ecb0a78a266d05edd59758cf532c3": 16,
+        "be3a0715a977468285cc63b5c0798410": 8,
+        "c2754a5dac404cb1b757213b56759c67": 1,
+        "fa33d4808b42d46b96893a5da4a98304": 1,
+        "ce5e250123b14409b2f3cc4b4757f9cd": 4,
+        "90095dac7cf44e919965e614e85d774f": 2,
+        "fe10f8b1628349d9a0bcf62361df1f03": 1,
+        "0968cc95862040f19e1e4b7887aef813": 1,
+        "8e06176593c83cb1ac26267a81465057": 1,
+        "0f19f14414ceb517541281c802c26bd0": 2,
+        "bb92593dd76a42fbae40221986ec91bb": 1,
+        "7f4824c8cb73498e9bce366cb920b57f": 16,
+        "21ee5d137475cb5ff8210c0004ac4634": 1,
+        "66cb54e5a9b14738a3bbde55b276042f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          16,
+          "C0603",
+          "C1,C2,C3,C4,C9,C10,C11,C13,C15,C18,C19,C20,C21,C22,C23,C24",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "0603B104K500NT",
+            "Supplier Part": "C30926",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C30926&%26type=1&ref=editor",
+            "spiceSymbolName": "0603B104K500NT",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "6a0ecb0a78a266d05edd59758cf532c3"
+          }
+        ],
+        [
+          "10uF",
+          8,
+          "CAP-SMD_L3.2-W1.6",
+          "C5,C6,C7,C8,C12,C14,C16,C17",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C185774",
+            "Manufacturer": "TORCH(火炬)",
+            "Manufacturer Part": "CA45-A-16V-10μF-K",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C185774&%26type=1&ref=editor",
+            "spiceSymbolName": "CA45-A-16V-10μF-K",
+            "puuid": "2b2a7bab00354c19b76a8043f7520dcf",
+            "uuid": "be3a0715a977468285cc63b5c0798410"
+          }
+        ],
+        [
+          "22uF",
+          1,
+          "CAP-SMD_L3.5-W2.8-R-RD",
+          "C25",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "KEMET(基美)",
+            "Manufacturer Part": "T491B226K016AT",
+            "Supplier Part": "C110051",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C110051&%26type=1&ref=editor",
+            "spiceSymbolName": "T491B226K016AT",
+            "puuid": "d7687a3218c1452287141642df3cd5ed",
+            "uuid": "66cb54e5a9b14738a3bbde55b276042f"
+          }
+        ],
+        [
+          "B5819WS",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "B5819WS",
+            "Manufacturer": "MDD",
+            "Supplier Part": "C64886",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C64886&%26type=1&ref=editor",
+            "spiceSymbolName": "B5819WS",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "21ee5d137475cb5ff8210c0004ac4634"
+          }
+        ],
+        [
+          "WS2812B-B",
+          64,
+          "LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16,LED17,LED18,LED19,LED20,LED21,LED22,LED23,LED24,LED25,LED26,LED27,LED28,LED29,LED30,LED31,LED32,LED33,LED34,LED35,LED36,LED37,LED38,LED39,LED40,LED41,LED42,LED43,LED44,LED45,LED46,LED47,LED48,LED49,LED50,LED51,LED52,LED53,LED54,LED55,LED56,LED57,LED58,LED59,LED60,LED61,LED62,LED63,LED64",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "worldsemi",
+            "Manufacturer Part": "WS2812B-B/W",
+            "Supplier Part": "C114586",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C114586&%26type=1&ref=editor",
+            "spiceSymbolName": "WS2812B-B",
+            "puuid": "8130b592289a4348a2359025240ef2f0",
+            "uuid": "6b4734eba1714e9a9bc44ea1445ea515"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0402",
+          "R1,R2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "0402WGF5101TCE",
+            "Supplier Part": "C25905",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C25905&%26type=1&ref=editor",
+            "spiceSymbolName": "0402WGF5101TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "R0805",
+          "R3,R4,R5,R6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "KOA",
+            "Manufacturer Part": "RK73B2ATTD103J",
+            "Supplier Part": "C159912",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C159912&%26type=1&ref=editor",
+            "spiceSymbolName": "RK73B2ATTD103J",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ce5e250123b14409b2f3cc4b4757f9cd"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "R0603",
+          "R7",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "RC0603FR-071KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier Part": "C22548",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C22548&%26type=1&ref=editor",
+            "spiceSymbolName": "RC0603FR-071KL",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "8e06176593c83cb1ac26267a81465057"
+          }
+        ],
+        [
+          "27.4Ω",
+          2,
+          "R0402",
+          "R8,R9",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "0402WGF274JTCE",
+            "Supplier Part": "C31439",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C31439&%26type=1&ref=editor",
+            "spiceSymbolName": "0402WGF274JTCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "0f19f14414ceb517541281c802c26bd0"
+          }
+        ],
+        [
+          "0Ω",
+          1,
+          "R0603",
+          "R10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C115304",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "RS-03000JT",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C115304&%26type=1&ref=editor",
+            "spiceSymbolName": "RS-03000JT_C115304",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb92593dd76a42fbae40221986ec91bb"
+          }
+        ],
+        [
+          "BOOT",
+          2,
+          "SW-SMD_4P-L2.6-W1.6-P0.75-LS3.0",
+          "SW1,SW2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C913785",
+            "Manufacturer": "HYP(鸿源精密)",
+            "Manufacturer Part": "1TS026A-1700-0553-CT",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C913785&%26type=1&ref=editor",
+            "spiceSymbolName": "1TS026A-1700-0553-CT",
+            "puuid": "daf4452813f74222a2ae8bb66c3ed0b8",
+            "uuid": "90095dac7cf44e919965e614e85d774f"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347222",
+            "Manufacturer": "UMW(广东友台半导体)",
+            "Manufacturer Part": "AMS1117-3.3",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C347222&%26type=1&ref=editor",
+            "spiceSymbolName": "AMS1117-3.3_C347222",
+            "puuid": "09952c2799c54b76904e264324ada8f3",
+            "uuid": "736876f24b5b418d94baa3b17df427eb"
+          }
+        ],
+        [
+          "USB_D+",
+          1,
+          "CON_PAD_SQUARE_1.02MM",
+          "U7",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "USB_D-",
+          1,
+          "CON_PAD_SQUARE_1.02MM",
+          "U8",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "+5V",
+          2,
+          "CON_PAD_SQUARE_1.02MM",
+          "U9,U14",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "GND",
+          4,
+          "CON_PAD_SQUARE_1.02MM",
+          "U10,U13,U17,U22",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "TXD",
+          2,
+          "CON_PAD_SQUARE_1.02MM",
+          "U11,U15",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "RXD",
+          2,
+          "CON_PAD_SQUARE_1.02MM",
+          "U12,U16",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "VCC",
+          2,
+          "CON_PAD_SQUARE_1.02MM",
+          "U18,U21",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "SWCLK",
+          1,
+          "CON_PAD_SQUARE_1.02MM",
+          "U19",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "SWDIO",
+          1,
+          "CON_PAD_SQUARE_1.02MM",
+          "U20",
+          {
+            "description": "Terminal connection pad",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "PAD_TERMINAL-1.02MM_SQUARE",
+            "Manufacturer Part": "",
+            "puuid": "7fb881ab9cd241109ba9a9056a020049",
+            "uuid": "7f4824c8cb73498e9bce366cb920b57f"
+          }
+        ],
+        [
+          "DIN 5V 3A",
+          1,
+          "USB-C-SMD_TYPE-C-6PIN-2MD-073",
+          "USB1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2765186",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "TYPE-C 16PIN 2MD(073)",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2765186&%26type=1&ref=editor",
+            "spiceSymbolName": "TYPE-C 16PIN 2MD(073)",
+            "puuid": "5a7e9ad3682242f88608293ce637ea1d",
+            "uuid": "04b7d8073e854006b41709a96b7a21a9"
+          }
+        ],
+        [
+          "DOUT",
+          1,
+          "USB-C-SMD_TYPE-C-6PIN-2MD-073",
+          "USB2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2765186",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "TYPE-C 16PIN 2MD(073)",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2765186&%26type=1&ref=editor",
+            "spiceSymbolName": "TYPE-C 16PIN 2MD(073)",
+            "puuid": "5a7e9ad3682242f88608293ce637ea1d",
+            "uuid": "04b7d8073e854006b41709a96b7a21a9"
+          }
+        ]
+      ],
+      "updateTime": 1696548223,
+      "createTime": 1695281389,
+      "histories": [],
+      "created_at": "2023-09-21 15:29:49",
+      "updated_at": "2023-10-06 07:23:43"
+    },
+    {
+      "uuid": "3bbb10886139b9a6601b0bab4524fc7b",
+      "title": "PCB_8x8 WS2812B Tight w MCUs New Tracks",
+      "filename": "PCB_8x8 WS2812B Tight w MCUs New Tracks.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8130b592289a4348a2359025240ef2f0": 64,
+        "7fb881ab9cd241109ba9a9056a020049": 16,
+        "0e389484d0e74addb7739706b06e425c": 1,
+        "5a7e9ad3682242f88608293ce637ea1d": 2,
+        "fafd024f554e426eb74cf4a204aa88b0": 4,
+        "d7687a3218c1452287141642df3cd5ed": 1,
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 1,
+        "39e1b05b30bd4c64a6c9a1b67d9eb207": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 16,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "4a13c433861640209b7106f419770da9": 1,
+        "09952c2799c54b76904e264324ada8f3": 1,
+        "2b2a7bab00354c19b76a8043f7520dcf": 8,
+        "b60f399a7a7e41848b2be1eb49c79141": 4,
+        "daf4452813f74222a2ae8bb66c3ed0b8": 2,
+        "9c6dab9dc91e4b929269cb3454d6d713": 1,
+        "fdf2396de7694c3e8177c1c94fe2bbcd": 1
+      },
+      "BOM": [],
+      "updateTime": 1696716951,
+      "createTime": 1696543074,
+      "histories": [],
+      "created_at": "2023-10-06 05:57:54",
+      "updated_at": "2023-10-08 06:15:51"
+    }
+  ],
+  "sort": [
+    "9f0b8c2f6e743629cc9920de6398b170",
+    "b1c5809607c3451628d7ecfd88f6bb8a"
+  ],
+  "title": "8x8 WS2812B Tight w MCUs",
+  "foldername": "8x8 WS2812B Tight w MCUs",
+  "schfilename": "8x8 WS2812B Tight w MCUs.json",
+  "schfilemtime": 1696548223230
+}
