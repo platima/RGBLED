@@ -6,7 +6,7 @@ This is starting with my 8x8 WS2812B project as shown on my channel [https://you
  - [Part 2 - TBC]()
 
 ## Updates
-* **2023-12-21**: Initial commit
+* **2023-12-21**: Initial commit of 8x8 WS2812B Project
 
 ## Shop
 Buy spare boards, modules, and similar from me: https://shop.plati.ma/
