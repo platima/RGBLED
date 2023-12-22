@@ -23,8 +23,8 @@ I started this as I think all the current options are pretty crap designs, or ov
 * There is a 0-ohm resistor to isolate the DIN for the sake of adding multiple controllers.
 * The mounts are 2mm, spaced 8mm in, 16mm across, and two per side so it can be physically stable in any configuration.
 
-## Youtube Videos About This Project
- - [Part 1 - First Prototype & Test](https://youtu.be/V4Wd6AvVf8U)
+## YouTube Videos About This Project
+ - [Part 1 - First Prototype & Test](https://youtu.be/V4Wd6AvVf8U) ([Reddit](https://www.reddit.com/r/Platima/comments/18opq3h/i_was_annoyed_at_how_crap_all_rgb_matrixes/)) ([Blog](https://plati.ma/other-neopixel-matrixes-are-crap/))
  - [Part 2 - TBC]()
 
 ## Updates
