@@ -24,7 +24,7 @@ I started this as I think all the current options are pretty crap designs, or ov
 * The mounts are 2mm, spaced 8mm in, 16mm across, and two per side so it can be physically stable in any configuration.
 
 ## Youtube Videos About This Project
- - [Part 1 - First Test](https://www.youtube.com/watch?v=TBC)
+ - [Part 1 - First Prototype & Test](https://youtu.be/V4Wd6AvVf8U)
  - [Part 2 - TBC]()
 
 ## Updates
